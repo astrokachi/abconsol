@@ -1,0 +1,84 @@
+.logo{
+    display: block;
+    margin: auto;
+}
+
+.head{
+    color: antiquewhite;
+}
+
+.body{
+    color: antiquewhite;
+}
+
+.twitter{
+    display: block;
+    margin: auto;
+    padding: auto;
+}
+.telegram{
+    display: block;
+    margin: auto;
+    padding: auto;
+}
+body{
+    background-color: black;
+}
+.container{
+    text-align: center;
+}
+.Btn{
+    border: 30px yellow;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    margin: 10px;
+    color: black;
+    background-color: yellow;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    border-radius: 70px;
+}
+
+.btn1:hover,.btn2:hover,.btn3:hover{
+    color: yellow;
+}
+
+.Btn::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: black;
+    transition: 0.8s;
+    z-index: auto;
+
+}
+
+.btn1::before,.btn2::before,.btn3::before{
+    top: 0;
+    border-radius: 50px;
+    bottom: 0%;
+}
+
+.btn1:hover::before,.btn2:hover::before,.btn3:hover::before{
+    height: 180%;
+}
+
+.bottom{
+    display: block;
+    margin: auto;
+
+}
+
+.dex{
+    display: block;
+    margin: auto;
+    padding: auto;
+    height: 70px;
+
+}
