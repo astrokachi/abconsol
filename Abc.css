@@ -8,7 +8,7 @@
 }
 
 .body{
-    color: antiquewhite;
+    color: antiquewhite;    
 }
 
 .twitter{
@@ -23,10 +23,12 @@
 }
 body{
     background-color: black;
+    color: antiquewhite;  
 }
 .container{
     text-align: center;
 }
+
 .Btn{
     border: 30px yellow;
     padding: 10px 20px;
@@ -81,4 +83,42 @@ body{
     padding: auto;
     height: 70px;
 
+}
+
+.contact{
+    text-align: center;
+    font-size: 32px;
+    text-wrap: wrap;
+   
+    font-weight: bold;
+    
+}
+
+
+
+.center-small{
+    display: none;
+}
+
+@media screen and (max-width: 900px){
+    body {
+        margin-left:  20px;
+
+    }
+
+    .bottom{
+        display: block;
+        margin: auto;
+        padding: auto;
+        height: 170px;
+    }
+
+    .center-small {
+        display: unset;
+        text-align: center;
+    }
+    
+    .center-large {
+        display: none;
+    }
 }
